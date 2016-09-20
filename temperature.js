@@ -9,14 +9,14 @@ var Temperature = {
          celsius = (fahrenheit - 32) * (5/9);
          return celsius;
      }
-     toKelvin (celsius) {
-         var kelvin;
-         kelvin = (celsuis + 273.16) ;
-         return kelvin;
-     }
+//     toKelvin (celsius) {
+//         var kelvin;
+//         kelvin = (celsuis + 273.16) ;
+//         return kelvin;
+//     }
  };
  var tempToday = 82;
  var tempInCelsius = Temperature.toCelsius(tempToday);
- var message = "Today’s temperature is " + tempToday +"°F, which is " + tempInCelsius + "°C " or " + tempInKelvin" K.;
+ var message = "Today’s temperature is " + tempToday +"°F, which is " + tempInCelsius + "°C."; //"or"  + tempInKelvin "K.";
  
  console.log(message);
